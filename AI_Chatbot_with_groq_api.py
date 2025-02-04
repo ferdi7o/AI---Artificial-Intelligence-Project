@@ -1,6 +1,6 @@
 import groq
 
-client = groq.Client(api_key="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")
+client = groq.Client(api_key="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") #You can take your own free api key from groq.com
 
 def get_ai_response(user):
     try:
